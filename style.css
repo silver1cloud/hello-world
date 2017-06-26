@@ -1,0 +1,158 @@
+/* * {
+  border: 1px solid rgba(0,0,0,.3);
+} */
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+  .column {
+    width: 98%;
+    margin: 0 1%;
+  }
+  .about {
+    padding: 20% 1% 1% 1%;
+  }
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+  .column {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .about {
+    padding: 12% 1% 1% 1%;
+  }
+}
+@media (min-width: 1001px) {
+  .column {
+    width: 46%;
+    margin: 0 2%;
+  }
+  .about {
+    padding: 6% 1% 1% 1%;
+  }
+}
+html {
+  font-size: 16px;
+  box-sizing: border-box; 
+}
+ *, *:before, *:after {
+  box-sizing: inherit;
+} 
+aside, article, section, header, footer, nav {
+	display: block;
+} 
+body {
+  margin: 0;
+  background: lightgrey;
+  font-family: "Abel", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+}
+h1, h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+header {
+  background: purple;
+  color: white;
+  width: 100%;
+  position: fixed;
+}
+.row {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.column {
+  float: left;
+}
+nav {
+  text-align: right;
+  padding: 1%;
+}
+nav, a {
+  color: darkgrey;
+  font-weight: 600;
+  margin: 0 1%;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+main {
+  background: white;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-bottom: 2%;
+}
+.heading {
+  text-align: center;
+}
+hr {
+  display: inline-block;
+  width: 7rem;
+  margin: 0.5rem 0;
+  border: solid 2px;
+}
+.about {
+  background: darkgrey;
+  color: white;
+}
+.profile-img {
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 50%;
+  border: none;
+}
+.portfolio {
+  padding: 1%;
+}
+img {
+  margin-bottom: 2%;
+  width: 100%;
+  /*padding: 3%;*/
+  border: solid 2px lightgrey;
+}
+.contact {
+  padding: 1%;
+}
+form {
+  line-height: 3.4rem;
+  padding: 3%;
+}
+input {
+  font-size: 1.2rem;
+  margin: 1%;
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 2px lightgrey;
+}
+.message {
+  text-align: center;
+  padding: 2%;
+}
+.socialmedia {
+  background: darkgrey;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+}
+.icon {
+  width: 50px;
+  border-radius: 50%;
+  border: solid 2px #fff;
+}
+footer {
+  background: purple;
+  color: white;
+  width: 100%;
+  clear: left;
+  text-align: center;
+  padding: 1%;
+}
